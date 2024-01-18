@@ -4,12 +4,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-items: center;
     font-family: sans-serif;
     transition: background-color 0.5s ease;
 }
-
+title {
+    display: none;
+}
 body {
-    background-color: #e1abee4f;
+    background-color: #e0abee2b;
 }
 h2 {
     color: #895296;
@@ -73,15 +76,16 @@ h1 {
     color: #6e4279;
 }
 .correct {
-    background-color:  grey;
+    background-color:  rgba(128, 128, 128, 0.79);
     color: white;
     border: 5px solid;
     border-color: lightgray rgb(29, 160, 89) rgb(29, 160, 89) lightgray;
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
 }
 .wrong {
-    background-color:  grey;
+    background-color:  rgba(128, 128, 128, 0.79);
     color: white;
+    border-color: lightgray rgb(75, 74, 74) rgb(75, 74, 74) lightgray;
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
 }
 .win {
