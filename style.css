@@ -4,8 +4,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     transition: background-color 0.5s ease;
+}
+
+body {
+    background-color: #e1abee4f;
+}
+h2 {
+    color: #895296;
+}
+h1 {
+    color: rgb(110, 66, 121);
 }
 
 .abcs {
@@ -14,7 +24,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    max-width: 750px;
     min-width: 100px;
 }
 .abc {
@@ -23,6 +33,8 @@
     margin-bottom: 7px;
     height: 60px;
     width: 60px;
+    border: 3px solid;
+    border-color: lightgrey grey grey lightgrey;
     box-shadow: .2px .2px 0px .2px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
     font-size: 25px;
@@ -46,16 +58,25 @@
 
 .letter-box {
     border-bottom: 5px solid grey;
+    border-top: 4px solid rgba(211, 211, 211, 0.39);
+    border-left: 4px solid rgba(211, 211, 211, 0.39);
+    border-right: 4px solid rgba(211, 211, 211, 0.39);
+    background-color: rgba(211, 211, 211, 0.526);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
     height: 60px;
     width: 70px;
-    font-size: 50px;
+    font-size: 40px;
     font-family: cursive;
+    color: #6e4279;
 }
 .correct {
-    background-color: green;
+    background-color:  grey;
     color: white;
+    border: 5px solid;
+    border-color: lightgray rgb(29, 160, 89) rgb(29, 160, 89) lightgray;
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
 }
 .wrong {
